@@ -1,0 +1,30 @@
+html {
+	background-color: #fedb01;
+}
+
+.wrapper {	
+	background-color: #fedb01;
+
+}
+
+.header {
+
+}
+
+.blurb {
+	background-image: url('assets/rendering.jpg');
+	background-repeat: no-repeat;
+	background-position-x: center;
+}
+
+.blurb-content {
+	background: rgba(255,255,255,0.9);
+}
+
+.cta {
+	text-align: center;
+}
+
+.footer {
+	text-align: center;
+}
