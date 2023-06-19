@@ -7,9 +7,6 @@ html {
 
 }
 
-.header {
-
-}
 
 .blurb {
 	background-image: url('assets/rendering.jpg');
@@ -27,4 +24,13 @@ html {
 
 .footer {
 	text-align: center;
+}
+
+.media-title {
+  text-decoration: none;
+}
+
+img.media-thumbnail {
+  width: 48px;
+  height: 48px;
 }
