@@ -1,29 +1,28 @@
 html {
-	background-color: #fedb01;
+  background-color: #fedb01;
 }
 
-.wrapper {	
-	background-color: #fedb01;
+.wrapper {
+  background-color: #fedb01;
 
 }
-
 
 .blurb {
-	background-image: url('assets/rendering.jpg');
-	background-repeat: no-repeat;
-	background-position-x: center;
+  background-image: url('assets/rendering.jpg');
+  background-repeat: no-repeat;
+  background-position-x: center;
 }
 
 .blurb-content {
-	background: rgba(255,255,255,0.9);
+  background: rgba(255,255,255,0.9);
 }
 
 .cta {
-	text-align: center;
+  text-align: center;
 }
 
 .footer {
-	text-align: center;
+  text-align: center;
 }
 
 .media-title {
