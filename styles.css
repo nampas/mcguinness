@@ -15,22 +15,10 @@ h1 {
   height: auto;
 }
 
-.blurb {
-  background-image: url('assets/rendering.jpg');
-  background-repeat: no-repeat;
-  background-position-x: center;
-  height: 500px;
+main {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 12px 0;
 }
-
-.blurb-content {
-  background: rgba(255,255,255,0.9);
-  overflow-y: scroll;
-  height: 500px;
-}
-
-.blurb-content > table {
-	height: 100%;
- }
 
 .cta {
   text-align: center;
