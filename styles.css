@@ -1,9 +1,20 @@
+@font-face {
+  font-family: "mcg-font";
+  src: url(./assets/mcgfont.otf) format("opentype") !important;
+  font-weight: normal;
+  font-style: normal;
+}
+
+body * {
+  font-family: 'mcg-font', sans-serif;
+}
+
 html {
   background-color: #fedb01;
 }
 
 h1 {
-	font-weight: bold!important;
+  font-weight: bold!important;
 }
 
 .wrapper {
@@ -41,11 +52,19 @@ img.media-thumbnail {
   display: none;
 }
 
+.footer-logo {
+  width: 60%;
+  height: auto;
+}
+
 @media (min-width: 992px) {
   .proposed-changes {
     display: block;
   }
   .proposed-changes-small {
     display: none!important;
+  }
+  .footer-logo {
+    width: 30%;
   }
 }
