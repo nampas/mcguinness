@@ -48,3 +48,16 @@ img.media-thumbnail {
   width: 48px;
   height: 48px;
 }
+
+.proposed-changes {
+  display: none;
+}
+
+@media (min-width: 992px) {
+  .proposed-changes {
+    display: block;
+  }
+  .proposed-changes-small {
+    display: none!important;
+  }
+}
