@@ -35,6 +35,15 @@ h1 {
   background: rgba(255, 255, 255, 0.9);
 }
 
+.temp-banner {
+  background: rgba(255, 255, 255);
+  text-align: center;
+}
+
+.temp-banner > h5 {
+  margin: 0;
+}
+
 main {
   background: rgba(255, 255, 255);
   padding: 12px 0;
